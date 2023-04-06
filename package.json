@@ -1,0 +1,25 @@
+{
+  "name": "example.com",
+  "version": "1.0.0",
+  "description": "This is a template for static websites.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve",
+    "test": "npx broken-link-checker http://localhost:8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinckr/web-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinckr/web-template/issues"
+  },
+  "homepage": "https://github.com/vinckr/web-template#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
